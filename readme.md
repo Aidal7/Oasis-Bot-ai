@@ -50,12 +50,12 @@ This script automates registration, create provider and websocket interaction of
     ```
    This script will automatically register account if you don't have account .The setup script will automatically fill and save the needed data to the `data.txt`, it will look like this:
     ```bash
-    email1,token1fromemail1,provider1foremail1,proxy1
-    email1,token1fromemail1,provider2foremail1,proxy1
-    email1,token2fromemail1,provider3foremail1,proxy2
-    email2,token1fromemail2,provider1foremail2,proxy2
-    email2,token1fromemail2,provider2foremail2,proxy3
-    email2,token2fromemail2,provider3foremail2,proxy3
+    email[1],token[1]fromemail[1],provider[1]foremail[1],proxy[1]
+    email[1],token[1]fromemail[1],provider[2]foremail[1],proxy[1]
+    email[1],token[2]fromemail[1],provider[3]foremail[1],proxy[2]
+    email[2],token[1]fromemail[2],provider[1]foremail[2],proxy[2]
+    email[2],token[1]fromemail[2],provider[2]foremail[2],proxy[3]
+    email[2],token[2]fromemail[2],provider[3]foremail[2],proxy[3]
     ```
    if you not use proxy when registering account and want to use proxy when run the bot, you can add it manually or rerun setup.js with proxy enabled
 4. Run the script:
