@@ -19,7 +19,6 @@ function printHeader() {
     console.log("");
 }
 
-// Call the printHeader function at the start of the script
 printHeader();
 
 function logger(message, detail = "", level = "info") {
