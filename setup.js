@@ -210,7 +210,7 @@ async function registerUser(email, password) {
             "json": {
                 email: email,
                 password: password,
-                referralCode: "recitativo"
+                referralCode: "aidal1802"
             }
         }
     };
